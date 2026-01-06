@@ -1,5 +1,5 @@
 import { Box } from '@mui/material'
-import React, { useState } from "react";
+import  { useState } from "react";
 
 type FormData = {
   name: string;
