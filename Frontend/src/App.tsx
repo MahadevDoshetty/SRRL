@@ -1,6 +1,7 @@
 import NavBar from "./components/NavBar";
 import Register from "./components/Register";
 import "./App.css";
+import logo from '../src/assets/logo.png'
 
 export default function App() {
   return (
@@ -27,7 +28,7 @@ export default function App() {
             </div>
             <div className="hero-visual">
               <img
-                src="/src/assets/logo.png"
+                src={logo}
                 alt="truck"
                 className="hero-truck"
               />
